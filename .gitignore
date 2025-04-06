@@ -1,0 +1,22 @@
+# 系统文件
+.DS_Store
+Thumbs.db
+
+# 编辑器文件夹
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# 临时文件
+*.log
+*.tmp
+tmp/
+temp/
+
+# SpecStory文件夹
+.specstory/
+
+# 其他
+node_modules/
+.env 
