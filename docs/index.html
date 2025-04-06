@@ -87,6 +87,21 @@
         .emoji {
             margin-right: 5px;
         }
+        .skills-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 10px;
+        }
+        .skill-category {
+            font-weight: bold;
+        }
+        .quote {
+            font-style: italic;
+            color: #555;
+            border-left: 3px solid #0366d6;
+            padding-left: 15px;
+            margin: 15px 0;
+        }
     </style>
 </head>
 <body>
@@ -94,11 +109,11 @@
         <li><a href="#home">Homepage</a></li>
         <li><a href="#about">About Me</a></li>
         <li><a href="#news">News</a></li>
-        <li><a href="#experience">Experience</a></li>
+        <li><a href="#experience">Research Experience</a></li>
         <li><a href="#publications">Publications</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#honors">Honors and Awards</a></li>
         <li><a href="#education">Education</a></li>
+        <li><a href="#honors">Honors and Awards</a></li>
+        <li><a href="#skills">Skills</a></li>
     </ul>
 
     <div class="header" id="home">
@@ -106,43 +121,73 @@
         <ul>
             <li>Undergraduate Student at Beijing University of Posts and Telecommunications</li>
             <li>Beijing, China</li>
-            <li>Email: <a href="mailto:jiajunchen@bupt.edu.cn">jiajunchen@bupt.edu.cn</a></li>
-            <li>GitHub: <a href="https://github.com/jiajunchen-bupt" target="_blank">jiajunchen-bupt</a></li>
+            <li>Phone: +86-18152367680</li>
+            <li>Email: <a href="mailto:chenjiajun@bupt.edu.cn">chenjiajun@bupt.edu.cn</a></li>
+            <li>GitHub: <a href="https://github.com/IMBALDY" target="_blank">github.com/IMBALDY</a></li>
         </ul>
     </div>
 
     <div class="section" id="about">
-        <p>I am Jiajun Chen, currently a junior undergraduate student majoring in Data Science and Big Data Technology at the School of Computer Science, Beijing University of Posts and Telecommunications. My research interests include Multimodal Learning, Intention Grounding, Multimodal Distillation, Large Language Models (LLMs), and Reinforcement Learning. I am passionate about building AI systems that can understand and interact with the world through multiple modalities.</p>
+        <h2>About Me</h2>
+        <p>I am Jiajun Chen, currently a junior undergraduate student majoring in Data Science and Big Data Technology at the School of Computer Science, Beijing University of Posts and Telecommunications. My research interests include Multimodal Learning, Intention Grounding, Multimodal Distillation, Large Language Models (LLMs), and Reinforcement Learning.</p>
         
-        <p>I am currently working on a research project that will be submitted to ACM Multimedia 2025, focusing on multimodal learning techniques. I am actively seeking opportunities for graduate studies in the field of AI.</p>
+        <p>My journey in AI began in 2017 when I watched AlphaGo defeat Ke Jie, the world's top Go player. That moment profoundly impacted me and ignited my passion for artificial intelligence. I am dedicated to contributing to this field and firmly believe that artificial intelligence will transcend textual limitations to perceive the world in human-like ways across multiple modalities.</p>
+        
+        <p>I am currently working on research projects focusing on multimodal representation learning with missing modalities and multimodal distillation. I am actively seeking opportunities for graduate studies in the field of AI, particularly at the National University of Singapore.</p>
+        
+        <div class="quote">
+            "Theory without practice is shallow; true understanding comes from hands-on experience."
+        </div>
     </div>
 
     <div class="section" id="news">
         <h2><span class="emoji">🔥</span>News</h2>
         <div class="news-item">
-            <p><em>2024.05</em>: 📄 Working on a paper for ACM Multimedia 2025, focusing on multimodal representation learning.</p>
+            <p><em>2025.02</em>: 🔬 Started a new research project DREAM (Dynamic Routing for Embedding Alignment in Multimodal Distillation) at Beihang University.</p>
         </div>
         <div class="news-item">
-            <p><em>2024.03</em>: 🔬 Joined Prof. [Advisor Name]'s research group at BUPT, focusing on multimodal learning and LLMs.</p>
+            <p><em>2024.04</em>: 📄 Working on a paper "PROMISE: Prompt-Attentive Hierarchical Contrastive Learning for Robust Cross-Modal Representation with Missing Modalities" for ACM Multimedia 2025.</p>
         </div>
         <div class="news-item">
-            <p><em>2023.10</em>: 🏆 Won the [Competition/Award Name] at BUPT's Annual Computer Science Competition.</p>
+            <p><em>2023.08</em>: 🏆 Won the Best Poster award at National University of Singapore SOC Summer Workshop 2023.</p>
+        </div>
+        <div class="news-item">
+            <p><em>2023.05</em>: 🌏 Participated in SOC Summer Workshop 2023 at National University of Singapore.</p>
         </div>
     </div>
 
     <div class="section" id="experience">
         <h2><span class="emoji">🏫</span>Research Experience</h2>
         <ul>
-            <li><em>2023.09 - Present</em>, Research Assistant, Multimodal Learning Lab, Beijing University of Posts and Telecommunications, Beijing, China
+            <li>
+                <strong>DREAM: Dynamic Routing for Embedding Alignment in Multimodal Distillation</strong>
+                <br><em>Feb 2025 - Present, Beihang University, Beijing, China</em>
                 <ul>
-                    <li>Working on multimodal representation learning and intention grounding</li>
-                    <li>Developing models for cross-modal understanding between vision and language</li>
+                    <li>Designed and developed DREAM, a novel framework addressing three key challenges in multimodal multi-task distillation: conflicting objectives across tasks, unclear cross-modal associations, and modal feature distribution alignment issues</li>
+                    <li>Created an innovative three-stage distillation strategy comprising feature distillation, relation distillation with dynamic routing, and response distillation with adaptive weighting</li>
+                    <li>Implemented a lightweight task-aware routing network that dynamically selects optimal distillation pathways based on input modalities and task requirements</li>
+                    <li>Pioneered a multimodal knowledge decoupling approach that first transfers shared semantic knowledge before fine-tuning modality-specific modules</li>
+                    <li>Conducted comprehensive experiments across multiple vision-language datasets, demonstrating superior performance over existing distillation methods</li>
                 </ul>
             </li>
-            <li><em>2023.06 - 2023.08</em>, Summer Research Intern, AI Institute, Beijing, China
+            <li>
+                <strong>PROMISE: Prompt-Attentive Hierarchical Contrastive Learning for Robust Cross-Modal Representation with Missing Modalities</strong>
+                <br><em>Mar 2024 - Apr 2025, Beijing University of Posts and Telecommunications, Beijing, China</em>
                 <ul>
-                    <li>Participated in a project on LLM fine-tuning for domain-specific applications</li>
-                    <li>Implemented and evaluated several distillation techniques for model compression</li>
+                    <li>Led the development of PROMISE, a novel multimodal framework addressing the critical challenge of missing modalities in cross-modal learning</li>
+                    <li>Independently designed and implemented an innovative prompt attention mechanism that dynamically synthesizes robust representations for missing modalities</li>
+                    <li>Pioneered a hierarchical contrastive learning approach with original dual-level objective design (inter-modal and intra-modal)</li>
+                    <li>Achieved significant performance improvements of 2-3% in accuracy and F1 scores across diverse benchmark datasets (UPMC-Food-101, HatefulMemes, MM-IMDB, N24News)</li>
+                    <li>Reviewed over 40 research papers and implemented various architectures like Transformer, CLIP, and LLaVA to enhance understanding of multimodal systems</li>
+                </ul>
+            </li>
+            <li>
+                <strong>Solving Real World Problems with Computational Thinking</strong>
+                <br><em>May 2023 - Aug 2023, National University of Singapore, Singapore</em>
+                <ul>
+                    <li>Participated in research instructed by Prof. Leong Hon Wai as part of SOC Summer Workshop 2023</li>
+                    <li>Applied computational thinking approaches to solve real-world challenges</li>
+                    <li>Developed and presented research findings, winning the Best Poster award</li>
                 </ul>
             </li>
         </ul>
@@ -151,38 +196,34 @@
     <div class="section" id="publications">
         <h2><span class="emoji">📝</span>Publications</h2>
         
-        <h3>Ongoing Work</h3>
+        <h3>Under Preparation</h3>
         <div class="publication-item">
-            <p>"[Tentative Title: Multimodal Representation Learning with Intention Grounding for Cross-Modal Understanding]", <strong>Jiajun Chen</strong>, [Co-authors]. To be submitted to ACM Multimedia 2025.</p>
-            <p><em>Abstract</em>: This work explores novel approaches for multimodal learning with a focus on intention grounding, enabling AI systems to better understand human intentions across different modalities.</p>
+            <p><strong>Jiajun Chen*</strong>, Sai Cheng, Yirui Zhang, Peng Peng, Yi Zhong. "PROMISE: Prompt-Attentive Hierarchical Contrastive Learning for Robust Cross-Modal Representation with Missing Modalities"</p>
+            <p><em>Under preparation for 33rd ACM International Conference on Multimedia (ACM Multimedia 2025, CCF-A Conference)</em></p>
+            <p><em>Abstract</em>: This work addresses the critical challenge of missing modalities in cross-modal learning by introducing a novel prompt attention mechanism and hierarchical contrastive learning approach. Our framework dynamically synthesizes robust representations for missing modalities while ensuring both semantic consistency and discriminative power across different modalities.</p>
         </div>
     </div>
 
-    <div class="section" id="projects">
-        <h2><span class="emoji">💻</span>Projects</h2>
+    <div class="section" id="education">
+        <h2><span class="emoji">📖</span>Education</h2>
         <ul>
             <li>
-                <strong>Multimodal Chatbot with Intention Understanding</strong> (2023)
+                <strong>Beijing University of Posts and Telecommunications</strong>
+                <br><em>Sept 2022 - Jun 2026 (Expected)</em>
+                <br>B.S. in Data Science and Big Data Technology
                 <ul>
-                    <li>Developed a chatbot that can understand user intentions from both text and images</li>
-                    <li>Implemented using PyTorch, Hugging Face Transformers, and CLIP</li>
-                    <li>GitHub: [Link to project repository]</li>
+                    <li>Average score: 88.26/100</li>
+                    <li>Selected courses: Computing Methods and Mathematical Models (Part I) (99), Matrix Theory and Method (99), Introduction to Computing and Foundation of Programming (99), Mathematic Analysis (I) (97), Mathematical Experiments (97), Mathematical Foundations of Data Science (96), Principles of Database Systems (92), Design and Analysis of Algorithms (92), Linear Algebra (91), Practice of Machine Learning (91), Python Programming & R language (90), Probability Theory and Mathematical Statistics (90)</li>
                 </ul>
             </li>
             <li>
-                <strong>Knowledge Distillation for Efficient LLMs</strong> (2023)
+                <strong>National University of Singapore</strong>
+                <br><em>May 2023 - Aug 2023</em>
+                <br>SOC Summer Workshop 2023
                 <ul>
-                    <li>Experimented with various knowledge distillation techniques to compress large language models</li>
-                    <li>Achieved 70% reduction in model size while maintaining 95% of the performance</li>
-                    <li>GitHub: [Link to project repository]</li>
-                </ul>
-            </li>
-            <li>
-                <strong>Reinforcement Learning for Robotics Simulation</strong> (2022)
-                <ul>
-                    <li>Implemented RL algorithms (PPO, SAC) for robotic control tasks in simulation</li>
-                    <li>Used PyTorch and OpenAI Gym to train agents for navigation and manipulation tasks</li>
-                    <li>GitHub: [Link to project repository]</li>
+                    <li>Performance grade: A-</li>
+                    <li>Participated in research on "Solving Real World Problems with Computational Thinking" instructed by Prof. Leong Hon Wai</li>
+                    <li>Won the Best Poster award</li>
                 </ul>
             </li>
         </ul>
@@ -191,23 +232,28 @@
     <div class="section" id="honors">
         <h2><span class="emoji">🎖</span>Honors and Awards</h2>
         <ul>
-            <li><em>2023</em> Outstanding Student Scholarship, Beijing University of Posts and Telecommunications</li>
-            <li><em>2023</em> First Prize, BUPT Computer Science Programming Competition</li>
-            <li><em>2022</em> Merit Student Award, Beijing University of Posts and Telecommunications</li>
-            <li><em>2022</em> Second Prize, National College Student Mathematics Competition</li>
+            <li><em>2023</em> Best Poster, National University of Singapore SOC Summer Workshop</li>
+            <li><em>2024-2025</em> Third-class Scholarship, Beijing University of Posts and Telecommunications</li>
+            <li><em>2024</em> Excellent Student Leader, Beijing University of Posts and Telecommunications</li>
         </ul>
     </div>
 
-    <div class="section" id="education">
-        <h2><span class="emoji">📖</span>Education</h2>
-        <ul>
-            <li><em>2021.09 - Present</em>, B.S. in Data Science and Big Data Technology, School of Computer Science, Beijing University of Posts and Telecommunications
-                <ul>
-                    <li>GPA: [Your GPA]/4.0</li>
-                    <li>Core courses: Machine Learning, Deep Learning, Natural Language Processing, Computer Vision, Big Data Technologies, Data Mining</li>
-                </ul>
-            </li>
-        </ul>
+    <div class="section" id="skills">
+        <h2><span class="emoji">🛠️</span>Skills</h2>
+        <div class="skills-grid">
+            <div>
+                <p><span class="skill-category">Languages:</span> English (IELTS 6: R 7, L 5, S 5.5, W 6), Chinese (Native)</p>
+                <p><span class="skill-category">Programming:</span> Python, C++, Java</p>
+                <p><span class="skill-category">Frameworks & Libraries:</span> PyTorch, TensorFlow, Hugging Face Transformers</p>
+                <p><span class="skill-category">Database:</span> MySQL</p>
+            </div>
+            <div>
+                <p><span class="skill-category">Operating Systems:</span> Linux, MacOS, Windows</p>
+                <p><span class="skill-category">Software & Tools:</span> Git, Jupyter Notebook, VS Code</p>
+                <p><span class="skill-category">Networking & Security:</span> Wireshark, TCP/IP, Network Protocols</p>
+                <p><span class="skill-category">Interests:</span> Badminton, swimming, long-distance running, photography, mountaineering</p>
+            </div>
+        </div>
     </div>
 
     <footer>
