@@ -1,26 +1,42 @@
-# 陈嘉骏的个人主页
+# Jiajun Chen's Academic Homepage
 
-这是我的个人学术主页，展示了我的研究兴趣、项目经历和学术成果。
+This is my personal academic website showcasing my research interests, experiences, and achievements in the field of AI and multimodal learning.
 
-## 主要内容
+## Website Contents
 
-- 个人简介
-- 研究经历
-- 学术成果
-- 项目展示
-- 荣誉奖项
-- 教育背景
+- **About Me**: Brief introduction and research interests
+- **News**: Recent updates about my academic journey
+- **Research Experience**: Detailed information about my research projects
+- **Publications**: My academic papers and ongoing work
+- **Education**: Educational background
+- **Honors and Awards**: Academic achievements and recognitions
+- **Skills**: Technical skills and language proficiency
 
-## 技术栈
+## Technology Stack
 
-主页使用纯HTML和CSS构建，没有使用任何JavaScript框架。
+The website is built with pure HTML and CSS for simplicity and performance, without any JavaScript frameworks.
 
-## 访问地址
+## Features
 
-您可以通过以下地址访问我的主页：[https://jiajunchen-bupt.github.io](https://jiajunchen-bupt.github.io)
+- Clean and responsive design
+- Easy navigation
+- Academic focus with clear sections
+- Professional presentation of research work
 
-## 联系方式
+## Access
 
-如有任何问题或合作意向，请通过以下方式联系我：
-- 邮箱：jiajunchen@bupt.edu.cn
-- GitHub：[jiajunchen-bupt](https://github.com/jiajunchen-bupt) 
+Visit my homepage at: [https://imbaldy.github.io/Jiajun-Homepage/](https://imbaldy.github.io/Jiajun-Homepage/)
+
+## Contact
+
+For any inquiries or collaboration opportunities, please reach out through:
+- Email: chenjiajun@bupt.edu.cn
+- GitHub: [IMBALDY](https://github.com/IMBALDY)
+
+## Maintenance
+
+Last updated: May 2024
+
+## License
+
+© 2024 Jiajun Chen. All rights reserved. 
